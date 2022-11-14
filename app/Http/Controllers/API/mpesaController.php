@@ -68,7 +68,7 @@ class mpesaController extends Controller
             'PartyA' => $PartyA,
             'PartyB' => $PartyB,
             'PhoneNumber' => 254111781133,
-            'CallBackURL' => 'https://ba07-105-163-2-81.eu.ngrok.io/',
+            'CallBackURL' => 'https://ba07-105-163-2-81.eu.ngrok.io/web-socket/',
             'AccountReference' => 'E-market ',
             'TransactionDesc' => 'Testing stkpush'
         );
