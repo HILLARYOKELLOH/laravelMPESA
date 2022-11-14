@@ -26,3 +26,11 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::apiResource('/ceo', CEOController::class)->middleware('auth:api');
 Route::post('/accessToken', [mpesaController::class, 'generateAccessToken']);
 Route::post('/stkPush', [mpesaController::class, 'STKPush']);
+
+
+// $mpesasdk = new mpesaController();
+
+// $accessToken = $mpesasdk->generateAccessToken();
+
+
+// Route::post('/stkPush', [mpesaController::class, 'STKPush']);
